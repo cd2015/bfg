@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.myHeader {
+}
+#div2 {
+	width: 350px;
+	position: absolute;
+	cursor: pointer;
+	color: rgba(0,0,255, 6);
+}
+#logoArea {
+	height: 80px;
+}
+#logo {
+ //background:#19A271;
+	padding: 20px 0px;
+	width: 100px;
+	font-weight: bolder;
+	color: #881717;
+	font-size: 20px;
+}
+#menuArea {
+	background-color: #881717;
+	height: 60px;
+}
+#menu {
+	background: #CC1E21;
+	text-decoration: none;
+	list-style: none;
+}
+#menu li {
+	float: left;
+	text-align: center;
+	width: auto;
+	width: 120px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+#menu li.current {
+	background: #A911EC
+}
+#subMenu {
+	text-decoration: none;
+	list-style: none;
+}
+#subMenu li {
+	float: left;
+	text-align: center;
+	margin-right: 40px;
+}
+topRates {
+	background-color: #E5E3E3
+}
+th, td {
+	padding: 5px 0px;
+	text-align: left;
+	width: auto;
+}
+tr:nth-child(even) {
+	background: #EBF5F8
+}
+tr:nth-child(odd) {
+	background: #FFF
+}
+tr th:nth-child(4), td:nth-child(4) {
+	color: #ABABAB;
+ //background:#D3D1C8;
+}
+tr:hover {
+	cursor: pointer;
+	background-color: #BFF2FF;
+}
+#allForexTable, #forex_details, #braches {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#allForexTable td:nth-child(1) {
+	width: 80px;
+	height: 80px;
+}
+#allForexTable td:nth-child(2) {
+	margin-left: 50px;
+}
+#allForexTable td a {
+	color: #111111;
+}
+#forex_details td:nth-child(1) {
+	width: 30px;
+	height: 20px;
+	padding-right: 10px
+}
+#forex_details td:nth-child(2) {
+	width: 160px;
+}
+#register_forex {
+	width: 50%;
+	font-size: 15px;
+}
+input, textarea {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-height: 30px;
+	padding: 5px;
+}
+#register_forex input {
+	width: 100%;
+}
+#register_forex input[type=submit] {
+	width: 50%;
+	float: right;
+	padding: 10px;
+}
